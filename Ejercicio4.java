@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ejercicio4 {
     public static void ejecutar() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Ingrese una palabra: ");
+        System.out.print("Ingresa una palabra: ");
         String palabra = sc.nextLine().toLowerCase();
 
         int contador = 0;
