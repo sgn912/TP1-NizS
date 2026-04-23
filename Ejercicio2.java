@@ -3,7 +3,7 @@ package resolNizS;
 public class Ejercicio2 {
     public static void ejecutar(String[] args) {
         if (args.length == 0) {
-            System.out.println("Debe ingresar un numero");
+            System.out.println("Ingresa un numero");
             return;
         }
 
