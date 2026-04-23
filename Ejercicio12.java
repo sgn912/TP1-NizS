@@ -9,7 +9,7 @@ public class Ejercicio12 {
         int[] nums = new int[5];
 
         for (int i = 0; i < 5; i++) {
-            System.out.print("Ingrese número " + (i + 1) + ": ");
+            System.out.print("Ingrese numero " + (i + 1) + ": ");
             nums[i] = sc.nextInt();
         }
 
