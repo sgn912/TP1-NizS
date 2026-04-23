@@ -12,13 +12,13 @@ public class Ejercicio6 {
         int intento;
 
         do {
-            System.out.print("Adivina el número (1-100): ");
+            System.out.print("Adivina el numero (1-100): ");
             intento = sc.nextInt();
 
             if (intento > numero)
-                System.out.println("Más bajo");
+                System.out.println("Mas bajo");
             else if (intento < numero)
-                System.out.println("Más alto");
+                System.out.println("Mas alto");
 
         } while (intento != numero);
 
